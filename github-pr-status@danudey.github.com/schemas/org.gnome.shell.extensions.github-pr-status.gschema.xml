@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="github-pr-status">
+  <schema id="org.gnome.shell.extensions.github-pr-status"
+          path="/org/gnome/shell/extensions/github-pr-status/">
+
+    <key name="refresh-interval" type="i">
+      <default>300</default>
+      <summary>Refresh interval</summary>
+      <description>How often to poll GitHub for updates, in seconds.</description>
+    </key>
+
+    <key name="notification-filters" type="as">
+      <default>['review_requested','mention','comment','assign','state_change']</default>
+      <summary>Notification filters</summary>
+      <description>Which notification reason types count toward the unread badge.</description>
+    </key>
+
+  </schema>
+</schemalist>

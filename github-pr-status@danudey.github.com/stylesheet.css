@@ -1,0 +1,12 @@
+/* Notification badge */
+.github-pr-badge {
+    background-color: #e53935;
+    color: white;
+    border-radius: 8px;
+    font-size: 9pt;
+    font-weight: bold;
+    min-width: 1.4em;
+    padding: 0 4px;
+    margin-left: 4px;
+    text-align: center;
+}
