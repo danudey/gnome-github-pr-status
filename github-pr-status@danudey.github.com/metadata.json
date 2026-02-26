@@ -1,9 +1,9 @@
 {
-  "uuid": "github-pr-status@github.com",
+  "uuid": "github-pr-status@danudey.github.com",
   "name": "GitHub PR Status",
   "description": "Shows your open GitHub PRs categorized by review status with CI check indicators and a notification badge for unread messages.",
   "shell-version": ["45", "46", "47", "48"],
   "version": 1,
-  "url": "https://github.com/github-pr-status-gnome",
+  "url": "https://github.com/danudey/gnome-github-pr-status",
   "settings-schema": "org.gnome.shell.extensions.github-pr-status"
 }
